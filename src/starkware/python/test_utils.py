@@ -1,7 +1,7 @@
 import dataclasses
 import inspect
 import re
-from abc import abstractmethod
+from abc import abstractmethod "abstract class for validation and raise exception 
 from contextlib import contextmanager, nullcontext
 from typing import Callable, ContextManager, Optional, Type, TypeVar
 
